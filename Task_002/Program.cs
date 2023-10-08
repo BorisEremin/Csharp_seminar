@@ -16,13 +16,13 @@ if(a > b)
     System.Console.WriteLine($"Максимальное число {a}");
 }
 
-if(b > c)
+else if(b > c)
 
 {
     System.Console.WriteLine($"Максимальное число {b}");
 }
 
-else if(c > a)
+if(c > a)
 
 {
     System.Console.WriteLine($"Максимальное число {c}");
